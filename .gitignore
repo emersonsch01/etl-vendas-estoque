@@ -1,0 +1,39 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configurações locais
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+
+# Dados gerados pelo pipeline
+data/raw/*
+data/processed/*
+data/rejected/*
+data/gold/*
+
+# Arquivos Parquet e temporários
+*.parquet
+*.tmp
+*.temp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
